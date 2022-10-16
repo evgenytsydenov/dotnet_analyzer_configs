@@ -7,10 +7,10 @@
     <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.SpecialRules">
 
         <!-- XML comment analysis disabled -->
-        <Rule Id="SA0001" Action="None" />
+        <Rule Id="SA0001" Action="Error" />
 
         <!-- Invalid settings file -->
-        <Rule Id="SA0002" Action="None" />
+        <Rule Id="SA0002" Action="Error" />
 
     </Rules>
 
@@ -30,10 +30,10 @@
         <Rule Id="SA1003" Action="None" />
 
         <!-- Documentation lines should begin with single space -->
-        <Rule Id="SA1004" Action="None" />
+        <Rule Id="SA1004" Action="Error" />
 
         <!-- Single line comments should begin with single space -->
-        <Rule Id="SA1005" Action="None" />
+        <Rule Id="SA1005" Action="Error" />
 
         <!-- Preprocessor keywords should not be preceded by space -->
         <Rule Id="SA1006" Action="None" />
@@ -103,7 +103,7 @@
         <Rule Id="SA1027" Action="None" />
 
         <!-- Code should not contain trailing whitespace -->
-        <Rule Id="SA1028" Action="None" />
+        <Rule Id="SA1028" Action="Error" />
 
     </Rules>
 
@@ -129,16 +129,16 @@
         <Rule Id="SA1105" Action="None" />
 
         <!-- Code should not contain empty statements -->
-        <Rule Id="SA1106" Action="None" />
+        <Rule Id="SA1106" Action="Error" />
 
         <!-- Code should not contain multiple statements on one line -->
         <Rule Id="SA1107" Action="None" />
 
         <!-- Block statements should not contain embedded comments -->
-        <Rule Id="SA1108" Action="None" />
+        <Rule Id="SA1108" Action="Error" />
 
         <!-- Block statements should not contain embedded regions -->
-        <Rule Id="SA1109" Action="None" />
+        <Rule Id="SA1109" Action="Error" />
 
         <!-- Opening parenthesis or bracket should be on declaration line -->
         <Rule Id="SA1110" Action="None" />
@@ -168,7 +168,7 @@
         <Rule Id="SA1118" Action="None" />
 
         <!-- Comments should contain text -->
-        <Rule Id="SA1120" Action="None" />
+        <Rule Id="SA1120" Action="Error" />
 
         <!-- Use built-in type alias -->
         <Rule Id="SA1121" Action="None" />
@@ -351,10 +351,10 @@
         <Rule Id="SA1400" Action="None" />
 
         <!-- Fields should be private -->
-        <Rule Id="SA1401" Action="None" />
+        <Rule Id="SA1401" Action="Error" />
 
         <!-- File may only contain a single type -->
-        <Rule Id="SA1402" Action="None" />
+        <Rule Id="SA1402" Action="Error" />
 
         <!-- File may only contain a single namespace -->
         <Rule Id="SA1403" Action="None" />
@@ -416,7 +416,7 @@
         <Rule Id="SA1506" Action="None" />
 
         <!-- Code should not contain multiple blank lines in a row -->
-        <Rule Id="SA1507" Action="None" />
+        <Rule Id="SA1507" Action="Error" />
 
         <!-- Closing braces should not be preceded by blank line -->
         <Rule Id="SA1508" Action="None" />
@@ -431,16 +431,16 @@
         <Rule Id="SA1511" Action="None" />
 
         <!-- Single-line comments should not be followed by blank line -->
-        <Rule Id="SA1512" Action="None" />
+        <Rule Id="SA1512" Action="Error" />
 
         <!-- Closing brace should be followed by blank line -->
-        <Rule Id="SA1513" Action="None" />
+        <Rule Id="SA1513" Action="Error" />
 
         <!-- Element documentation header should be preceded by blank line -->
-        <Rule Id="SA1514" Action="None" />
+        <Rule Id="SA1514" Action="Error" />
 
         <!-- Single-line comment should be preceded by blank line -->
-        <Rule Id="SA1515" Action="None" />
+        <Rule Id="SA1515" Action="Error" />
 
         <!-- Elements should be separated by blank line -->
         <Rule Id="SA1516" Action="None" />
@@ -463,28 +463,28 @@
     <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.DocumentationRules">
 
         <!-- Elements should be documented -->
-        <Rule Id="SA1600" Action="None" />
+        <Rule Id="SA1600" Action="Error" />
 
         <!-- Partial elements should be documented -->
-        <Rule Id="SA1601" Action="None" />
+        <Rule Id="SA1601" Action="Error" />
 
         <!-- Enumeration items should be documented -->
-        <Rule Id="SA1602" Action="None" />
+        <Rule Id="SA1602" Action="Error" />
 
         <!-- Documentation should contain valid XML -->
-        <Rule Id="SA1603" Action="None" />
+        <Rule Id="SA1603" Action="Error" />
 
         <!-- Element documentation should have summary -->
-        <Rule Id="SA1604" Action="None" />
+        <Rule Id="SA1604" Action="Error" />
 
         <!-- Partial element documentation should have summary -->
-        <Rule Id="SA1605" Action="None" />
+        <Rule Id="SA1605" Action="Error" />
 
         <!-- Element documentation should have summary text -->
-        <Rule Id="SA1606" Action="None" />
+        <Rule Id="SA1606" Action="Error" />
 
         <!-- Partial element documentation should have summary text -->
-        <Rule Id="SA1607" Action="None" />
+        <Rule Id="SA1607" Action="Error" />
 
         <!-- Element documentation should not have default summary -->
         <Rule Id="SA1608" Action="None" />
@@ -496,25 +496,25 @@
         <Rule Id="SA1610" Action="None" />
 
         <!-- Element parameters should be documented -->
-        <Rule Id="SA1611" Action="None" />
+        <Rule Id="SA1611" Action="Error" />
 
         <!-- Element parameter documentation should match element parameters -->
-        <Rule Id="SA1612" Action="None" />
+        <Rule Id="SA1612" Action="Error" />
 
         <!-- Element parameter documentation should declare parameter name -->
-        <Rule Id="SA1613" Action="None" />
+        <Rule Id="SA1613" Action="Error" />
 
         <!-- Element parameter documentation should have text -->
-        <Rule Id="SA1614" Action="None" />
+        <Rule Id="SA1614" Action="Error" />
 
         <!-- Element return value should be documented -->
-        <Rule Id="SA1615" Action="None" />
+        <Rule Id="SA1615" Action="Error" />
 
         <!-- Element return value documentation should have text -->
-        <Rule Id="SA1616" Action="None" />
+        <Rule Id="SA1616" Action="Error" />
 
         <!-- Void return value should not be documented -->
-        <Rule Id="SA1617" Action="None" />
+        <Rule Id="SA1617" Action="Error" />
 
         <!-- Generic type parameters should be documented -->
         <Rule Id="SA1618" Action="None" />
@@ -532,7 +532,7 @@
         <Rule Id="SA1622" Action="None" />
 
         <!-- Property summary documentation should match accessors -->
-        <Rule Id="SA1623" Action="None" />
+        <Rule Id="SA1623" Action="Error" />
 
         <!-- Property summary documentation should omit accessor with restricted access -->
         <Rule Id="SA1624" Action="None" />
@@ -544,13 +544,13 @@
         <Rule Id="SA1626" Action="None" />
 
         <!-- Documentation text should not be empty -->
-        <Rule Id="SA1627" Action="None" />
+        <Rule Id="SA1627" Action="Error" />
 
         <!-- Documentation text should begin with a capital letter -->
-        <Rule Id="SA1628" Action="None" />
+        <Rule Id="SA1628" Action="Error" />
 
         <!-- Documentation text should end with a period -->
-        <Rule Id="SA1629" Action="None" />
+        <Rule Id="SA1629" Action="Error" />
 
         <!-- Documentation text should contain whitespace -->
         <Rule Id="SA1630" Action="None" />
@@ -613,7 +613,7 @@
         <Rule Id="SA1649" Action="None" />
 
         <!-- Element documentation should be spelled correctly -->
-        <Rule Id="SA1650" Action="None" />
+        <Rule Id="SA1650" Action="Error" />
 
         <!-- Do not use placeholder elements -->
         <Rule Id="SA1651" Action="None" />
