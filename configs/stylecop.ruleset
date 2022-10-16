@@ -7,7 +7,7 @@
     <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.SpecialRules">
 
         <!-- XML comment analysis disabled -->
-        <Rule Id="SA0001" Action="Error" />
+        <Rule Id="SA0001" Action="None" />
 
         <!-- Invalid settings file -->
         <Rule Id="SA0002" Action="Error" />
