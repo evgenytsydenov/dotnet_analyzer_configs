@@ -437,6 +437,9 @@ dotnet_naming_rule.elements_rule.style = pascal_case_style
 # For C# code files
 [*.cs]
 
+# Define rules for the entire codebase
+dotnet_code_quality.api_surface = all
+
 # Do not declare static members on generic types
 dotnet_diagnostic.CA1000.severity = silent
 
@@ -683,7 +686,9 @@ dotnet_diagnostic.CA1509.severity = none
 dotnet_diagnostic.CA1700.severity = none
 
 # Identifiers should not contain underscores
+# Only for public and internal code since private fields can start with an underscore
 dotnet_diagnostic.CA1707.severity = error
+dotnet_code_quality.CA1707.api_surface = public, internal
 
 # Identifiers should differ by more than case
 dotnet_diagnostic.CA1708.severity = error
@@ -717,7 +722,6 @@ dotnet_diagnostic.CA1724.severity = none
 
 # Parameter names should match base declaration
 dotnet_diagnostic.CA1725.severity = error
-dotnet_code_quality.CA1725.api_surface = all
 
 # Use PascalCase for named placeholders
 dotnet_diagnostic.CA1727.severity = silent
