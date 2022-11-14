@@ -4,6 +4,15 @@
         "documentationRules": {
             "companyName": "TPU",
             "documentationCulture": "en-US"
+        },
+        "maintainabilityRules": {
+            "topLevelTypes": [
+                "class",
+                "interface",
+                "struct",
+                "enum",
+                "delegate"
+            ]
         }
     }
 }
