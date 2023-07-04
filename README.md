@@ -8,4 +8,4 @@ The following analyzers are jointly used for checking:
 
 The analyzers are configured in such a way that building a project will fail if the basic rules are violated.
 
-The process of installing and configuring the analyzers is described in detail [in this tutorial](https://docs.google.com/document/d/1UAUMETJWpd27NFB7dnPzHaE_3NM6spj2hQUz9xT8Dcs/edit?usp=sharing) (in Russian).
+The process of installing and configuring the analyzers is described in detail [in this tutorial](https://github.com/evgenytsydenov/dotnet_analyzer_configs/blob/main/tutorials/Настройка%20.NET%20анализаторов.pdf) (in Russian).
